@@ -1,0 +1,22 @@
+{
+  "service_name": "data-parser",
+  "status": "running",
+  "timestamp": "2024-01-26T10:00:00Z",
+  "version": "1.2.3",
+  "uptime_seconds": 3600,
+  "memory_usage_mb": 256.7,
+  "cpu_usage_percent": 15.2,
+  "active_threads": 10,
+  "data_processed_count": 123456,
+  "errors_encountered_count": 10,
+  "last_error_message": null, // or "No errors encountered"
+  "dependencies": [
+    "database",
+    "message_queue",
+    "external_api"
+  ],
+  "custom_metrics": {
+    "parsing_latency_ms": 50.5,
+    "validation_success_rate": 0.995
+  }
+}
